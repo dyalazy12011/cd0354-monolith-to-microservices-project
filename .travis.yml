@@ -14,7 +14,7 @@ before_script:
   - echo "no tests"
 
 script:
-  - docker-compose -f docker-compose-build.yaml
+  - docker-compose -f docker-compose-build.yaml build
   - docker tag udagram-api-feed buixuandai/udagram-api-feed:v1
   - docker tag udagram-api-user buixuandai/udagram-api-user:v1
   - docker tag udagram-frontend buixuandai/udagram-frontend:v1
