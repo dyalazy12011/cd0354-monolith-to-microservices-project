@@ -32,6 +32,7 @@ kubectl describe services
 kubectl describe hpa
 ```
 ![describe hpa](./kubectl_describe_hpa.PNG "describe hpa")
+![describe hpa 1](./kubectl_describe_hpa_1.PNG "describe hpa 1")
 
 * To verify that you have set up logging with a backend application
 ```bash
